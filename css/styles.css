@@ -46,7 +46,6 @@ ul {
     margin-left: 5px;
 }
 .nav-mid {
-
     display: flex;
     flex-direction: row;
 }
@@ -95,4 +94,19 @@ ul {
     margin-right: -20px;
     border-color: black;
     margin-top: 7.5px;
+}
+.sec-ul {
+    display: flex;
+    flex-direction: row;
+}
+.sec-nav {
+    display: flex;
+    flex-direction: row;
+}
+.li-words {
+    color: black;
+}
+.li-words:hover {
+    color: #b30000;
+    text-decoration: none;
 }
