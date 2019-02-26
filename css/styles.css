@@ -90,18 +90,31 @@ ul {
     margin-right: 20px;
 }
 .nav-hr {
-    margin-left: -20px;
-    margin-right: -20px;
     border-color: black;
     margin-top: 7.5px;
 }
 .sec-ul {
     display: flex;
     flex-direction: row;
+    padding-top: 0px;
+}
+.left-li {
+    padding-left: 0px;
+    margin-left: -5px;
+    margin-top: -8px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.sec-li {
+    margin-left: 25px;
+    margin-top: -8px;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
 .sec-nav {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 .li-words {
     color: black;
@@ -109,4 +122,22 @@ ul {
 .li-words:hover {
     color: #b30000;
     text-decoration: none;
+}
+.dropdown-toggle {
+    margin-top: -20px;
+    margin-left: 100px;
+    margin-right: -1px;
+    background-color: #2a3134;
+    color: white;
+    border: none;
+    width: 90.33px;
+    height: 42.8px;
+}
+.sign-on {
+    position: absolute;
+}
+.kchecking {
+    margin-top: -22px;
+    height: auto;
+    width: 100%;
 }
