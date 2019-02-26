@@ -141,3 +141,27 @@ ul {
     height: auto;
     width: 100%;
 }
+.tilediv {
+    margin-top: -225px;
+    margin-left: 200px;
+    width: 650px;
+    transition: all 0.2s;
+}
+.tilediv:hover {    
+    transform: scale(1.025);
+}
+.ktile {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 42px;
+    font-weight: 200;
+    color: white;
+}
+.ktile:hover {
+    text-decoration: none;
+}
+.redarrow {
+    height: 40px;
+    width: 65px;
+}
