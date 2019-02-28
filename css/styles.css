@@ -170,6 +170,11 @@ ul {
     display: flex;
     justify-content: center;
 }
+.kcards2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
 .kcard {
     transition: all 0.2s;
     height: auto;
@@ -197,4 +202,40 @@ ul {
 }
 .kimg {
     width: 100%;
+}
+.tiptitle {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    color: #b30000;
+    font-weight: 200;
+    margin-top: 70px;
+    font-size: 33px;
+}
+.howtogroup {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.howtoitem {
+    width: 25%;
+    height: auto;
+    border: lightgrey 0.25px solid;
+}
+.itemwords {
+    padding: 20px;
+}
+.itemimg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.linktitle {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 12px;
+}
+.itemlink {
+    font-size: 18px;
+    font-weight: bold;
 }
