@@ -243,3 +243,101 @@ ul {
     height: auto;
     width: 100%;
 }
+.accountgroup {
+    width: 250px;
+    margin-right: 150px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.kaccounts {
+    background-image: url("/images/koverlay2.png");
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.inditems {
+    padding: 0px;
+}
+.inditemstitle {
+    font-size: 18px;
+    font-weight: bold;
+}
+.itemslink {
+    color: #0267b1;
+    font-weight: lighter;
+}
+.itemslink:hover {
+    color: #0267b1;
+}
+.acctitem {
+    margin-top: 20px;
+}
+.acctitems {
+    margin-top: 12px;
+}
+.kcontact {
+    background-color: #bfc6cb;
+    height: 286px;
+}
+.kabout {
+    background-color: #585d64;
+    height: 251px;
+}
+.kcontgroup{
+    display:flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contimg {
+    height: 40px;
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+.contsect {
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.contmid {
+    border-right: #585d64 solid 1px;
+    border-left: #585d64 solid 1px;
+    height: 160px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.kconttitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3e484c;
+}
+.ktel {
+    color: #025089;
+    text-decoration: underline;
+    font-size: 15px;
+}
+.ktdd {
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+.kappt {
+    text-decoration: underline;
+    color: #025089;
+}
+.kloca {
+    height: 38.8px;
+    width: 245.89px;
+    border: solid 1px;
+    border-color: lightgrey;
+    padding: 10px;
+}
+.kbtn {
+    background-color: #b30000;
+    color: white;
+    border: none;
+    border-radius: 5%;
+    height: 38.8px;
+    width: 54.11px;
+    margin-left: 5px;
+}
