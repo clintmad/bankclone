@@ -341,3 +341,53 @@ ul {
     width: 54.11px;
     margin-left: 5px;
 }
+.kfootnav {
+    display: flex;
+    padding: 0px;
+}
+.footnav {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+    margin-top: 40px;
+}
+.knava {
+    color: white;
+    text-decoration: underline;
+    font-size: 15px;
+    padding: 10px;
+}
+.knav1::after {
+    color: white;
+    content: "|";
+}
+.mediatitle {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.keymedia {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-left: 14%;
+}
+.kmedia {
+    display: flex;
+}
+.mlinks {
+    margin-left: 10px;
+}
+.fabtn {
+    padding: 6px;
+    font-size: 20px;
+    width: 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+    color: #585d64;
+}
+.khr {
+    width: 72%;
+}
