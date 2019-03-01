@@ -165,6 +165,14 @@ ul {
     height: 40px;
     width: 65px;
 }
+@media screen and (min-width: 851px) {
+
+}
+@media screen and (max-width: 850px) {
+    
+}
+
+/* Cards Section */
 .kcards {
     margin-top: 100px;
     display: flex;
@@ -203,6 +211,14 @@ ul {
 .kimg {
     width: 100%;
 }
+@media screen and (min-width: 851px) {
+
+}
+@media screen and (max-width: 850px) {
+    
+}
+
+/* Tips Section */
 .tiptitle {
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -239,10 +255,14 @@ ul {
     font-size: 18px;
     font-weight: bold;
 }
-.overlay2 {
-    height: auto;
-    width: 100%;
+@media screen and (min-width: 851px) {
+
 }
+@media screen and (max-width: 850px) {
+    
+}
+
+/* Accounts Section */
 .accountgroup {
     width: 250px;
     margin-right: 150px;
@@ -276,35 +296,24 @@ ul {
 .acctitems {
     margin-top: 12px;
 }
+@media screen and (min-width: 851px) {
+
+}
+@media screen and (max-width: 850px) {
+    
+}
+
+/* Contact Section */
 .kcontact {
     background-color: #bfc6cb;
-    height: 286px;
 }
-.kabout {
-    background-color: #585d64;
-    height: 251px;
+.keycont {
+    width: 80%;
 }
 .kcontgroup{
     display:flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 50px;
-}
-.contimg {
-    height: 40px;
-    margin-left: -5px;
-    margin-bottom: 10px;
-}
-.contsect {
-    width: 350px;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-.contmid {
-    border-right: #585d64 solid 1px;
-    border-left: #585d64 solid 1px;
-    height: 160px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 .kconttitle {
     font-size: 18px;
@@ -341,38 +350,142 @@ ul {
     width: 54.11px;
     margin-left: 5px;
 }
+.branchform {
+    display: flex;
+    flex-wrap: nowrap;
+}
+@media screen and (min-width: 851px) {
+    .kcontact {
+        height: 286px;
+        display: flex;
+        justify-content: center;
+    }
+    .contbeg {
+        padding-right: 20px;
+    }
+    
+    .contmid {
+        border-right: #585d64 solid 1px;
+        border-left: #585d64 solid 1px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .contend {
+        padding-left: 20px;
+    }
+    .contsect {
+        width: 350px;
+    }
+    .contbeg::before {
+        background-image: url("/images/phone.png");
+        background-size: 40px 40px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        content: "";
+    }
+    .contmid::before {
+        background-image: url("/images/calen.png");
+        background-size: 40px 40px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        content: "";
+    }
+    .contend::before {
+        background-image: url("/images/loca.png");
+        background-size: 40px 40px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        content: "";
+    }
+}
+@media screen and (max-width: 850px) {
+    .kcontact {
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .kcontgroup {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+    }
+    .contmid {
+        margin-bottom: 60px;
+        margin-top: 60px;
+    }
+    .begtitle::before {
+        background-image: url("/images/phone.png");
+        background-size: 40px 40px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        content: "";
+        margin-bottom: -5px;
+    }
+    .midtitle::before {
+        background-image: url("/images/calen.png");
+        background-size: 40px 40px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        content: "";
+        margin-bottom: -5px;
+    }
+    .endtitle::before {
+        background-image: url("/images/loca.png");
+        background-size: 40px 40px;
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        content: "";
+        margin-bottom: -5px;
+    }
+    .contactcont {
+        margin-left: 40px;
+    }
+}
+
+/* About Section */
+.kabout {
+    height: 251px;
+    background-color: #585d64;
+    display: flex;
+    justify-content: center;
+}
+.keyfooter {
+    width: 80%;
+}
 .kfootnav {
     display: flex;
     padding: 0px;
 }
 .footnav {
     display: flex;
-    justify-content: space-around;
-    margin-right: 20%;
+    justify-content: flex-start;
     margin-top: 40px;
 }
 .knava {
     color: white;
     text-decoration: underline;
     font-size: 15px;
-    padding: 10px;
-}
-.knav1::after {
-    color: white;
-    content: "|";
 }
 .mediatitle {
     color: white;
     font-size: 18px;
     font-weight: bold;
+    margin-bottom: 0px;
+    padding-top: 4px;
 }
 .keymedia {
     display: flex;
     justify-content: flex-start;
-    margin-top: 20px;
-    margin-left: 14%;
+    margin-top: 10px;
 }
 .kmedia {
+    padding-left: 10px;
     display: flex;
 }
 .mlinks {
@@ -389,5 +502,55 @@ ul {
     color: #585d64;
 }
 .khr {
-    width: 72%;
+    margin-top: 15px;
+}
+@media screen and (min-width: 851px) {
+    .knav::after {
+        color: white;
+        content: "|";
+    }
+    .knava {
+        padding-right: 10px;
+    }
+    .knav1 {
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .keyfooter {
+        display: flex;
+        flex-direction: column;
+    }
+    .footnav {
+        display: flex;
+        justify-content: center;
+    }
+    .kfootnav {
+        flex-direction: column;
+        text-align: center;
+    }
+    .kfootnav::before {
+        content: "Personal";
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .knav {
+        margin-bottom: 5px;
+    }
+    .kabout {
+        height: auto;
+    }
+    .keymedia {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .kmedia {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px;
+    }
 }
