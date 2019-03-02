@@ -56,7 +56,10 @@
         </div>
         <div class="nav-mid">
             <div class="logo">
-                <img src="/images/klogo.png" class="key-logo">
+                <img src="/images/key-logo2.png" class="key-logo">
+            </div>
+            <div class="kpersonal">
+                <p>Personal</p>
             </div>
             <div class="util-nav">
                 <ul class="util-ul">
@@ -96,16 +99,19 @@
                     <a href="#" class="li-words">Contact Us</a>
                 </li>
             </ul>
-            <button type="button" class="dropdown-toggle" aria-expanded="true">
-                <span>Sign On</span>
-            </button>
-            <div class="sign-on" aria-hidden="false">
-
+            <div class="dropdown">
+                <button id="signOnButton" onclick="signOnFunction(); change()" class="dropbtn">Sign On</button>
+                <div id="dropSign" class="sign-on">
+                    <form action="">
+                        <input type="text">
+                        <input type="text">
+                    </form>
+                </div>
             </div>
         </div>
     </section>
+
     <section id="keybody" class="row kbody">
-        <img src="/images/koverlay.png" class="kchecking">
         <div class="tilediv">
             <a href="https://www.key.com/personal/checking/checking-accounts-options.jsp?sqkl=personal_home_evergreen_checking_011619"
                 class="ktile">
@@ -114,9 +120,9 @@
             </a>
         </div>
     </section>
-    
-    <section id="keycards">
-        <div class="kcards row">
+
+    <section id="keycards" class="row">
+        <div class="kcards">
             <div class="tile">
                 <a href="https://www.key.com/personal/promo/debt-consolidation.jsp?sqkl=personal_homepage_promotile1_debt_010719"
                     class="kcard tile1">
@@ -130,7 +136,7 @@
                 </a>
             </div>
         </div>
-        <div class="kcards2 row">
+        <div class="kcards2">
             <div class="tile">
                 <a href="https://www.key.com/about/corporate-responsibility/sustainability.jsp" class="kcard tile1">
                     <img src="/images/tile3.png" class="kimg">
@@ -311,7 +317,7 @@
             <div class="kagree"></div>
         </div>
     </section>
-
+    
 </body>
-
+<script type="text/javascript" src="app.js"></script>
 </html>
