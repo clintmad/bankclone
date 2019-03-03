@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:200, 300" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </head>
 
 <body class="container-fluid">
@@ -59,6 +60,11 @@
             <div class="logo">
                 <img src="/images/key-logo2.png" class="key-logo">
             </div>
+            <div id="menuBtn" class="menuicon" onclick="changeMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
             <div class="kpersonal">
                 <p>Personal</p>
             </div>
@@ -85,7 +91,7 @@
             </div>
         </div>
         <hr class="nav-hr">
-        <div class="sec-nav">
+        <div class="sec-nav">            
             <ul class="sec-ul">
                 <li class="left-li">
                     <a href="#" class="li-words">Products</a>
@@ -100,8 +106,8 @@
                     <a href="#" class="li-words">Contact Us</a>
                 </li>
             </ul>
-            <div class="dropdown">
-                <button id="signOnButton" onclick="signOnFunction(); change()" class="dropbtn">Sign On</button>
+            <div id="dropDiv" class="dropdown">
+                <button id="signOnButton" onclick="signOnFunction(); changeSignOn()" class="dropbtn">Sign On</button>
                 <div id="dropSign" class="sign-on">
                     <form action="">
                         <input type="text">

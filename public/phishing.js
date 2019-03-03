@@ -1,13 +1,30 @@
 function signOnFunction() {
-    document.getElementById("dropSign").classList.toggle("show");
+    document.getElementById("dropSign").classList.toggle("show");    
 }
-function change() {
+
+function appendSignOn() {
+    if(window.matchMedia("(max-width: 850px)").matches) {
+        $("#dropDiv").appendTo("#navbar");
+    }
+}
+appendSignOn();
+
+$('.dropbtn').click(function() {
+    $(this).toggleClass('active');
+});
+
+function changeSignOn() {
     if (document.getElementById("signOnButton").innerHTML == "Sign On") {
         document.getElementById("signOnButton").innerHTML = "Close";
     } else if (document.getElementById("signOnButton").innerHTML == "Close") {
         document.getElementById("signOnButton").innerHTML = "Sign On"
     }
 }
+function changeMenu(x) {
+    x.classList.toggle("change");
+}
+
+// var mBtn = document.getElementByClassName("");
 
 var kBtn = document.getElementsByClassName("kservices");
 for (var i = 0; i < kBtn.length; i++) {
