@@ -17,7 +17,7 @@
 <body class="container-fluid">
     <section id="navbar" class="row navbar">
         <div id="topNav" class="nav-flex ">
-            <button id="keyServices" class="kservices">KeyBank Services</button>
+            <button id="keyServices" class="kservices">KeyBank Services<i class="arrow down"></i></button>
             <ul id="dropServices" class="top-nav top-flex">
                 <li class="nav-seg active-seg">
                     <a href="https://www.key.com/personal/index.jsp">
@@ -61,10 +61,10 @@
                 <img src="/images/key-logo2.png" class="key-logo">
             </div>
             <div id="menuBtn" class="menuicon" onclick="changeMenu(this)">
-                    <div class="bar1"></div>
-                    <div class="bar2"></div>
-                    <div class="bar3"></div>
-                </div>
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
             <div class="kpersonal">
                 <p>Personal</p>
             </div>
@@ -91,7 +91,7 @@
             </div>
         </div>
         <hr class="nav-hr">
-        <div class="sec-nav">            
+        <div class="sec-nav">
             <ul class="sec-ul">
                 <li class="left-li">
                     <a href="#" class="li-words">Products</a>
@@ -109,9 +109,27 @@
             <div id="dropDiv" class="dropdown">
                 <button id="signOnButton" onclick="signOnFunction(); changeSignOn()" class="dropbtn">Sign On</button>
                 <div id="dropSign" class="sign-on">
-                    <form action="">
-                        <input type="text">
-                        <input type="text">
+                    <p class="signon-title">ONLINE BANKING</p>
+                    <form class="form-group">
+                        <div class="user-input-div">
+                            <label for="userId" class="user-input">User ID</label>
+                            <a href="https://ibx.key.com/ibxolb/olb/index.html#/forgot-credentials?param=userid"
+                                class="forgot-info">Forgot User ID</a>
+                        </div>
+                        <input type="text" class="sign-input">
+                        <div class="user-input-div">
+                            <label for="userPw" class="user-input">Password</label>
+                            <a href="https://ibx.key.com/ibxolb/olb/index.html#/forgot-credentials?param=scrt"
+                                class="forgot-info">Forgot Password</a>
+                        </div>
+                        <input type="text" class="sign-input">
+                        <div class="form-check">
+                            <input type="checkbox" class="form-check-input" value="" id=defaultCheck1>
+                            <label for="defaultCheck1" class="form-check-label">Remember User ID</label>
+                        </div>
+                        <button class="user-signon">Sign On</button>
+                        <a href="https://ibx.key.com/ibxolb/olb/index.html#/enrollment/online-banking"
+                            class="enroll">Enroll in Online Banking</a>
                     </form>
                 </div>
             </div>
@@ -321,7 +339,36 @@
                 </ul>
             </div>
             <hr class="khr">
-            <div class="kagree"></div>
+            <div class="kagree">
+                <ul class="legal-ul">
+                    <li class="legal-li agree-li">
+                        <a href="" class="a-legal">User Agreement</a>
+                    </li>
+                    <li class="legal-li">
+                        <a href="" class="a-legal legal-mid">Online Privacy Statement</a>
+                    </li>
+                    <li class="legal-li-end">
+                        <a href="" class="a-legal legal-mid">Your Privacy and Security</a>
+                    </li>
+                </ul>
+                <ul class="img-ul">
+                    <li class="legal-img">
+                        <a href="https://www.key.com/kco/images/equal-housing-lender-060118.pdf">
+                            <img src="images/lender.png" class="lender-img">
+                        </a>
+                    </li>
+                    <li class="legal-img">
+                        <a href="https://www.fdic.gov/">
+                            <img src="images/fdic.png" class="fdic-img">
+                        </a>
+                    </li>
+                    <li class="user-agree-li">
+                        <a href="" class="a-legal">User Agreement</a>
+                    </li>
+                </ul>
+                
+            </div>
+            <p class="copyright">&copy;2019 KeyCorp<sup>&#174;</sup> All Rights Reserved.</p>
         </div>
     </section>
 </body>

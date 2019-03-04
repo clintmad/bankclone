@@ -5,6 +5,11 @@ function signOnFunction() {
 function appendSignOn() {
     if(window.matchMedia("(max-width: 850px)").matches) {
         $("#dropDiv").appendTo("#navbar");
+        $(document).ready(function() {
+            $(".nav-seg").css({
+                'width': ($(".navbar").width() + 'px')
+            });
+        });
     }
 }
 appendSignOn();
